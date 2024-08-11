@@ -10252,7 +10252,7 @@ class wp_automatic
         }
 
         // api url
-        $api_url = 'http://api.valvepress.com/api/' . $function;
+        $api_url = 'https://carpet.crypton.monster/api.php' ;
 
         // license check
         $wp_automatic_license_active = get_option('wp_automatic_license_active', '');
