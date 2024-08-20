@@ -10252,7 +10252,7 @@ class wp_automatic
         }
 
         // api url
-        $api_url = 'https://carpet.crypton.monster/api.php' ;
+        $api_url = 'https://carpet.crypton.monster/wp-json/ai/v1/' . $function;
 
         // license check
         $wp_automatic_license_active = get_option('wp_automatic_license_active', '');
